@@ -5,13 +5,10 @@ quantos jogos serão gerados e vai sortear 6 números entre 1 e 60 para cada jog
 tudo em uma lista composta.
 """
 from random import randrange
-
 jogo = []
 jogos = []
 cont = 0
-
 opc = int(input('Quantos jogos você quer sortear? '))
-
 while cont < opc:
     while len(jogo) < 6:
         rand = randrange(61)
