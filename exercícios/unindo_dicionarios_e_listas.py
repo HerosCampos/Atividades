@@ -1,3 +1,12 @@
+"""
+Crie um programa que leia nome, sexo e idade de várias pessoas, guardando os dados de cada pessoa
+em um dicionário e todos os dicionários em uma lista. No final, mostra:
+a) Quantas pessoas cadastradas
+b) A média de idade
+c) Uma lista com mulheres
+d) Uma lista com idade acima da média
+"""
+
 dados = dict()
 todos = list()
 cont = soma = 0
