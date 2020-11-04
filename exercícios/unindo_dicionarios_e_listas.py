@@ -1,4 +1,5 @@
 """
+Exercício 94 do curso de Python do canal Curso em Vídeo do professor Gustavo Guanabara.
 Crie um programa que leia nome, sexo e idade de várias pessoas, guardando os dados de cada pessoa
 em um dicionário e todos os dicionários em uma lista. No final, mostra:
 a) Quantas pessoas cadastradas
