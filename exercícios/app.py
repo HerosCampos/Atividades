@@ -1,0 +1,6 @@
+import dados
+
+aaa()
+
+
+
