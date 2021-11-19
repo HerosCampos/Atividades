@@ -18,9 +18,9 @@ print(f'Os valores pares digitados foram:', end = ' ')
 cont = 0
 for n in nums:
     if n % 2 == 0:
-        print(n)
+        print(n, end = ' ')
         cont += 1
 
-print(f'No total foram {cont} números pares.')
+print(f'\nNo total foram {cont} números pares.')
 
 
