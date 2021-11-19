@@ -14,9 +14,11 @@ else:
 
 print(f'O valor 9 apareceu {nums.count(9)} vezes.')
 
+print(f'Os valores pares digitados foram:', end = ' ')
 cont = 0
 for n in nums:
     if n % 2 == 0:
+        print(n)
         cont += 1
 
 print(f'No total foram {cont} números pares.')
