@@ -61,10 +61,10 @@ aragorn = Ranger("Aragorn", 100, 100, 50, 80)
 #for p in Personagem.sociedade:
 #    print(p.nome, p.saude)
 
-print(Personagem.sociedade)
-print(frodo)
-for p in Personagem.sociedade:
-    print(p.nome, p.saude)
+#print(Personagem.sociedade)
+#print(frodo)
+#for p in Personagem.sociedade:
+#    print(p.nome, p.saude)
 
 
 # Conferindo se o método Rastreando do Ranger está funcionando
@@ -80,4 +80,43 @@ for p in Personagem.sociedade:
 
 # Conferindo a sobreposição do __repr__
 #print(aragorn)
+
+
+##################################################
+
+
+class Inventario:
+    def __init__(self):
+        self.inv = []
+
+    def __len__(self):
+        return len(self.inv)
+
+    def __getitem__(self, i):
+        return self.inv[i]    
+
+    def __repr__(self):
+        return f"Inventário possui {len(self.inv)} itens:{self.inv}"
+
+
+
+inventario_aragorn = Inventario()
+inventario_aragorn.inv.append('Espada')
+inventario_aragorn.inv.append('Armadura de cota de malha')
+inventario_aragorn.inv.append('Botas')
+
+print(inventario_aragorn)
+print(len(inventario_aragorn))
+print(inventario_aragorn[1])
+print('------')
+for i in inventario_aragorn:
+    print(i)
+print('------')
+print(inventario_aragorn)
+
+
+
+
+
+
 
