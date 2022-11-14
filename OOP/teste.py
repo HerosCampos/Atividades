@@ -99,7 +99,6 @@ class Inventario:
         return f"Inventário possui {len(self.inv)} itens:{self.inv}"
 
 
-
 inventario_aragorn = Inventario()
 inventario_aragorn.inv.append('Espada')
 inventario_aragorn.inv.append('Armadura de cota de malha')
