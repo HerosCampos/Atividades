@@ -112,6 +112,7 @@ for i in inventario_aragorn:
     print(i)
 print('------')
 print(inventario_aragorn)
+print('------')
 
 
 
