@@ -5,7 +5,7 @@ class Personagem:
     # Atributos da Classe
     sociedade = []
     def __init__(self, nome: str, saude = 5, energia = 5, ataque = 5, defesa = 5):
-        # Atributos
+        # Atributos / Propriedades
         self.nome = nome
         self.saude = saude
         self.energia = energia
