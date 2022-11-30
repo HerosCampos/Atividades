@@ -51,13 +51,13 @@ print(rolf.weekly_salary())
 #        return f"Garage with {len(self)} cars."
 
 
-#ford = Garage()
-#ford.cars.append("Ford")
-#ford.cars.append("Fusion")
-#print(ford)
-#print(len(ford))
-#for car in ford:
-#    print(car)
+ford = Garage()
+ford.cars.append("Ford")
+ford.cars.append("Fusion")
+print(ford)
+print(len(ford))
+for car in ford:
+   print(car)
 
 
 
